@@ -20,4 +20,5 @@ def remove_strawberry(contacts)
       val.delete_if {|flavor| flavor == "strawberry"}
     end
   end
+  binding.pry
 end
